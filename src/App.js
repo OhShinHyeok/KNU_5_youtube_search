@@ -5,7 +5,7 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 import './css/style.css';
 import YTSearch from "youtube-api-search";
-const API_KEY = "AIzaSyCTRRTA_00ifVM8_tmSAfxJgl3g8RxZbA0";
+const API_KEY = "--API 키를 입력하세요--";
 
 
 
