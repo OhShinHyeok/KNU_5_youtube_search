@@ -1,9 +1,10 @@
 import React from 'react';
 import '../css/style.css'
 const VideoItem = ({video, onVideoSelect}) => {
+    var url = "https://www.youtube.com/watch?v="+video.id.videoId;
     return(
         <li className="item" onClick={() => onVideoSelect(video)}>
-            <a href="http://www.youtube.com/watch?v=e3Nl_TCQXuw" target="_blank">
+            <a href={url+video.id.videoId} target="_blank">
                 <h3>{video.snippet.title}</h3>
                 <div className="image-wrapper">
                     <img src={video.snippet.thumbnails.default.url}/>

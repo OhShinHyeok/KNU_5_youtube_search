@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     color: #666;
-    background-color: #e1e1e1;
+    background-color: #80d4f6;
 }
 
 a {
@@ -11,14 +11,14 @@ a {
 }
 
 #container {
-    width: 740px;
-    background: #fff;
+    width: 1200px;
+    background: #fffff5;
     margin: auto;
 }
 
 header {
     padding: 30px 20px;
-    background: #f4f4f4;
+    background: #ffda8e;
 }
 
 header h1 {

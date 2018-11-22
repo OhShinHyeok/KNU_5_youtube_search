@@ -11,7 +11,6 @@ const VideoList = ({videos, onVideoSelect}) => {
             />
         );
     })
-
     return (
         <ul id="results" className="item-list">
             {videoItems}

@@ -5,7 +5,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 import './css/style.css';
 import YTSearch from "youtube-api-search";
-import lodash from "lodash";
 const API_KEY = "AIzaSyCTRRTA_00ifVM8_tmSAfxJgl3g8RxZbA0";
 
 
@@ -29,20 +28,14 @@ class App extends Component {
         })
     }
 
-    onVideoSelect(selectedVideo) {
-        this.setState({selectedVideo});
-    }
-    onInputChange(searchVal) {
-        this.setState({searchVal});
-        this.props.onSearch(searchVal);
-    }
     render() {
         const name = this.state.name;
         return (
             <div id="container">
                 <header>
-                    <h1>Search <span>Videos</span></h1>
-                    <p>Search all YouTube Videos</p>
+                    <h1>유투브 <span>검색</span></h1>
+                    <p>보고싶은 동영상을 찾아보세요!</p>
+                    <p>강원대학교 컴퓨터정보통신공학전공 5조</p>
                 </header>
                 <section>
                     <form id="search-form" method="get" action="">
